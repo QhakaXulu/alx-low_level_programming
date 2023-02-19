@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - Enrty point 
+ * main - Enrty point
  * Return: 0 (Success)
  */
 
@@ -22,7 +22,7 @@ int main(void)
 	{
 	if ((p != d) != q)
 	{
-        putchar(d);
+putchar(d);
 	putchar(p);
 	putchar(q);
 	if (d == '7' && p == '8')
