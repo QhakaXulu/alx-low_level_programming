@@ -12,13 +12,13 @@ int main(void)
 {
 	int p, q;
 
-	for (p = 0; q <= 98; p++)
+	for (p = 0; p <= 98; p++)
 	{
 
-	for (p = q + 1; q <= 99; q++)
+	for (q = p + 1; q <= 99; q++)
 	{
 	putchar((p / 10) + '0');
-        putchar((p % 10) + '0');
+	putchar((p % 10) + '0');
 	putchar(' ');
 	putchar((q / 10) + '0');
 	putchar((q % 10) + '0');
@@ -28,6 +28,6 @@ int main(void)
 	putchar(' ');
 	}
 	}
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
