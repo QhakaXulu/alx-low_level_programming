@@ -2,7 +2,7 @@
 
 /**
  * puts_half - Prints half of a string
- * @str: The string to print 
+ * @str: The string to print
  * Return: void
  */
 
@@ -24,7 +24,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-	k = j / 2 ;
+	k = j / 2;
 	}
 
 	for (; k < j ; k++)
