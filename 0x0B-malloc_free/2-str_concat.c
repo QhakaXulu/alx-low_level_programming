@@ -4,7 +4,7 @@
 
 /**
  * str_concat - Concatenates two strings of any size
- * s1: the first string to concetenate
+ * @s1: the first string to concetenate
  * @s2: the second string to concetenate
  *
  * Return: the two strings concatenated
@@ -20,7 +20,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (s2 == NULL)
 		s2 = "";
-	
+
 	while (s1[i])
 		i++;
 
